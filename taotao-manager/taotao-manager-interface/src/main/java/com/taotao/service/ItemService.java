@@ -18,5 +18,5 @@ public interface ItemService {
      * @param rows 每页显示多少条
      * @return 这一页的数据
      */
-    TaoResult<Item> findByPage(Integer page , Integer rows);
+    TaoResult<Item> findByPage(Integer page, Integer rows);
 }
